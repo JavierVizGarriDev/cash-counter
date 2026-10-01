@@ -52,7 +52,9 @@ Se abre una ventana con la tabla de denominaciones. Introduce la cantidad de bil
 
 ## 📸 Captura
 
-*(pendiente)*
+| Ventana vacía | Rellena y calculada |
+|---|---|
+| ![Vacía](screenshots/screenshot-empty.png) | ![Rellena](screenshots/screenshot-filled.png) |
 
 ---
 

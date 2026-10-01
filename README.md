@@ -52,7 +52,9 @@ A window will open with the denominations table. Enter the quantity of bills you
 
 ## 📸 Screenshot
 
-*(to be added)*
+| Empty window | Filled and calculated |
+|---|---|
+| ![Empty](screenshots/screenshot-empty.png) | ![Filled](screenshots/screenshot-filled.png) |
 
 ---
 
