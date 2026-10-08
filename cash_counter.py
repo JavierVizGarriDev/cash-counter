@@ -1,3 +1,16 @@
+# =============================================================================
+#  HISTORICAL PROJECT — FIRST PROGRAMMING PROJECT (2024)
+# =============================================================================
+#  This was my first real programming project, written before I learned about
+#  Git, version control, testing, or code best practices.
+#
+#  The code below is intentionally preserved as it was originally written.
+#  No refactoring, no cleanup, no bug fixes.
+#
+#  It's kept here as a historical record of where I started.
+#  For full context, see the README.
+# =============================================================================
+
 from tkinter import *
 
 
