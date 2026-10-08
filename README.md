@@ -27,6 +27,18 @@ I intentionally left the code as it was originally written. No refactoring, no c
 
 ---
 
+## 🔄 What I would do differently today
+
+Looking back, these are the main things I would change:
+
+- Separate the UI from the logic (right now everything is mixed in `cash_counter.py`).
+- Validate user input (today, typing a letter throws an unhandled exception — the UI survives, but the calculation fails silently).
+- Use `list[index] = value` instead of `pop` + `insert`.
+- Write tests with `pytest` for the calculation logic.
+- Use `dataclasses` or constants for the denominations, instead of parallel lists.
+
+---
+
 ## 🛠️ Tech Stack
 
 - Python 3
@@ -69,6 +81,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 **Javier A. Vizcaino Garriga**
 - GitHub: [@JavierVizGarriDev](https://github.com/JavierVizGarriDev)
 - Email: javieralejandrovizcainogarriga@gmail.com
+
+---
+
+**Want to see how I code today?** Check out [`wifi-file-transfer`](https://github.com/JavierVizGarriDev/wifi-file-transfer) or [`printable-photo-grid`](https://github.com/JavierVizGarriDev/printable-photo-grid).
 
 ---
 

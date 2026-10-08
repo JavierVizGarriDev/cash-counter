@@ -27,6 +27,18 @@ Dejé el código intencionadamente tal como estaba. Sin refactorizar, sin limpia
 
 ---
 
+## 🔄 Qué haría diferente hoy
+
+Mirando atrás, estos son los cambios principales que haría:
+
+- Separar la interfaz de la lógica (ahora mismo todo está mezclado en `cash_counter.py`).
+- Validar la entrada del usuario (hoy, si escribes una letra, se lanza una excepción no controlada — la interfaz sigue viva, pero el cálculo falla en silencio).
+- Usar `lista[indice] = valor` en lugar de `pop` + `insert`.
+- Escribir tests con `pytest` para la lógica de cálculo.
+- Usar `dataclasses` o constantes para las denominaciones, en lugar de listas paralelas.
+
+---
+
 ## 🛠️ Stack Tecnológico
 
 - Python 3
@@ -69,6 +81,10 @@ Este proyecto está bajo la Licencia MIT — consulta el archivo [LICENSE](LICEN
 **Javier A. Vizcaino Garriga**
 - GitHub: [@JavierVizGarriDev](https://github.com/JavierVizGarriDev)
 - Email: javieralejandrovizcainogarriga@gmail.com
+
+---
+
+**¿Quieres ver cómo programo hoy?** Mira [`wifi-file-transfer`](https://github.com/JavierVizGarriDev/wifi-file-transfer) o [`printable-photo-grid`](https://github.com/JavierVizGarriDev/printable-photo-grid).
 
 ---
 
